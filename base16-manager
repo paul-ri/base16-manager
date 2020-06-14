@@ -196,7 +196,7 @@ list_support() {
   echo "0xdec/base16-rofi"
   echo "chriskempson/base16-shell"
   echo "chriskempson/base16-vim"
-  echo "chriskempson/base16-xresources"
+  echo "pinpox/base16-xresources"
   echo "khamer/base16-dunst"
   echo "khamer/base16-termite"
   echo "nicodebo/base16-fzf"
@@ -270,7 +270,7 @@ set_theme() {
       "chriskempson/base16-vim")
         set_vim "$package" "$theme"
         ;;
-      "chriskempson/base16-xresources")
+      "pinpox/base16-xresources")
         set_xresources "$package" "$theme"
         ;;
       "khamer/base16-dunst")
